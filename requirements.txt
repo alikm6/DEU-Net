@@ -1,0 +1,13 @@
+torchvision
+torchaudio
+numpy
+tensorboard
+torchsummary
+wandb
+torchmetrics==0.10.3
+scikit-learn
+matplotlib
+timm
+tqdm
+Pillow
+pytorch-toolbelt
