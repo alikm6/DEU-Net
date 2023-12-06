@@ -1,6 +1,8 @@
 # DEU-Net: Dual-Encoder U-Net for Automated Skin Lesion Segmentation
 
-This repository contains the PyTorch implementation of "DEU-Net: Dual-Encoder U-Net for Automated Skin Lesion Segmentation".
+This repository contains the official PyTorch implementation of "[DEU-Net: Dual-Encoder U-Net for Automated Skin Lesion Segmentation](https://ieeexplore.ieee.org/document/10332179)".
+
+![DEU-Net architecture](images%2FDEU-Net.png)
 
 ## Prerequisites
 - PyTorch 2.0.0
@@ -49,3 +51,19 @@ You can use the `predict.py` script to produce output for multiple images. The s
 - `--input`: A list of paths for input images to be segmented
 
 There are several other arguments that can be found in the code.
+
+## Citation
+
+If you find this repo helpful, please consider citing our paper:
+
+```
+@ARTICLE{10332179,
+  author={Karimi, Ali and Faez, Karim and Nazari, Soheila},
+  journal={IEEE Access}, 
+  title={DEU-Net: Dual-Encoder U-Net for Automated Skin Lesion Segmentation}, 
+  year={2023},
+  volume={11},
+  number={},
+  pages={134804-134821},
+  doi={10.1109/ACCESS.2023.3337528}}
+```
